@@ -1,0 +1,31 @@
+import { IToyMessageInfo, ITranslation, MessageContentType, MessageDirection, MsgType } from "../../../redux/store";
+export default interface IMessageProps {
+    id?: string;
+    children: any;
+    dateCreated: string;
+    isImage?: boolean;
+    username?: string;
+    groupChatClientName?: string;
+    usernameColor?: string;
+    isMessageWithJustOneEmoticon?: boolean;
+    isConsecutiveGroupMessage?: boolean;
+    isLastConsecutiveGroupMessage?: boolean;
+    isSoloMessage?: boolean;
+    hasClientName?: boolean;
+    isSystem: boolean;
+    isFullscreen: boolean;
+    isResponsive: boolean;
+    isMobileLandscape: boolean;
+    type?: MsgType;
+    contentType?: MessageContentType;
+    toy?: IToyMessageInfo;
+    audioSrc?: string;
+    direction: MessageDirection;
+    modelProfilePicture: any;
+    translation: ITranslation;
+    hasModelProfilePicture: boolean;
+    isVideoChatInGroupMode?: boolean;
+    shouldIncreaseMessageFontSize: boolean;
+    modelName?: string;
+    groupIndex?: number;
+}

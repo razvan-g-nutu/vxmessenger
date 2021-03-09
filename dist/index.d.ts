@@ -1,0 +1,11 @@
+import './polyfills';
+import AppContainer from './App';
+import 'moment/locale/de';
+import 'moment/locale/es';
+export { SupportedLanguage as Language } from 'vxcontrol-client-lib';
+export { IFeatures as Features, IOptions as Options, ITipOption as TipOption, ICurrency as Currency, IPlatformProps, CurrencyName, IPartner as Partner, VideoChatType, IData as IStore } from './redux/store';
+export { IAgeVerification as AgeVerification, IClickExit as ClickExit, IClickProfile as ClickProfile, IExitPopupAction as ExitPopupAction, IOnFailedChatConfig as OnFailedChatConfig, IOnFailedWebToken as OnFailedWebToken, IOnModelStatusChange as OnModelStatusChange, IOnSupportedVideoChatTypes as OnSupportedVideoChatTypes, IRecharge as Recharge, IVideoChatAction as VideoChatAction, IBecomeVIP as BecomeVIP, IPreferenceStore, PreferenceName } from './services/AppService/types';
+export { versionNumber } from './utils/utils';
+export { IPartialTheme as PartialTheme, ITheme as Theme } from './themes';
+export { closeMessenger, getStore } from './utils/appUtils';
+export default AppContainer;

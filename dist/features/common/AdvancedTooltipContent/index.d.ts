@@ -1,0 +1,2 @@
+import AdvancedTooltipContentContainer from './AdvancedTooltipContentContainer';
+export default AdvancedTooltipContentContainer;

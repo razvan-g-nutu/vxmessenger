@@ -1,0 +1,2 @@
+import VideoChatMobileLandscapeViewContainer from './VideoChatMobileLandscapeViewContainer';
+export default VideoChatMobileLandscapeViewContainer;

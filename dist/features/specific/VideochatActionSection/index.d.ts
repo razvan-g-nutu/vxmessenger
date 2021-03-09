@@ -1,0 +1,2 @@
+import VideoChatActionSectionContainer from './VideoChatActionSectionContainer';
+export default VideoChatActionSectionContainer;

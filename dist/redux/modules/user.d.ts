@@ -1,0 +1,18 @@
+import { Action } from "redux-actions";
+import { SupportedLanguage } from 'vxcontrol-client-lib';
+import { IPreferenceActionPayload } from '../interfaces';
+import { IUser, Translations } from '../store';
+export declare const SET_LANGUAGE: string;
+export declare const SET_IS_VIP: string;
+export declare const SET_TRANSLATIONS: string;
+export declare const SET_USER_ONLINE_STATE: string;
+export declare const SET_USER_KEY: string;
+export declare const SET_PREFERENCE: string;
+export declare const setLanguage: (instanceId: string, payload?: SupportedLanguage | undefined) => Action<import("../interfaces").IPayload<SupportedLanguage>>;
+export declare const setIsVip: (instanceId: string, payload?: boolean | undefined) => Action<import("../interfaces").IPayload<boolean>>;
+export declare const setTranslations: (instanceId: string, payload?: Translations | undefined) => Action<import("../interfaces").IPayload<Translations>>;
+export declare const setUserOnlineState: (instanceId: string, payload?: boolean | undefined) => Action<import("../interfaces").IPayload<boolean>>;
+export declare const setUserKey: (instanceId: string, payload?: string | undefined) => Action<import("../interfaces").IPayload<string>>;
+export declare const setPreference: (instanceId: string, payload?: IPreferenceActionPayload | undefined) => Action<import("../interfaces").IPayload<IPreferenceActionPayload>>;
+declare const user: import("redux-actions").ReduxCompatibleReducer<IUser, IUser>;
+export default user;

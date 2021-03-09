@@ -1,0 +1,34 @@
+import { ICurrency, IGift, ITranslation } from '../../../redux/store';
+export interface IProps {
+    hasContent: boolean;
+    emoticon?: string;
+    gift?: IGift;
+    mention?: string;
+    hasEditor: boolean;
+    currency: ICurrency;
+    hasFreeMessages: boolean;
+    isEmoticonSectionOpen: boolean;
+    isDropDownOpen: boolean;
+    shouldResetEditorState: boolean;
+    messagePrice: number;
+    translation: ITranslation;
+    isGiftSectionOpen: boolean;
+    isInteractive: boolean;
+    isResponsive: boolean;
+    isVideoChatOpen: boolean;
+    isFullscreen: boolean;
+    hasSendMessageButton: boolean;
+    hasOnlySendButton: boolean;
+    hasToyControlButton: boolean;
+    shouldDisplayMessageSectionButtons: boolean;
+    isAnyTextInEditor: boolean;
+    hasAudioMessages: boolean;
+    expandDropdown: () => void;
+    sendMessage: () => void;
+    toggleToySection: () => any;
+    onTextChanged: (text: string) => void;
+    onStartRecording: () => void;
+    onGiftTextChanged: (giftText: string) => void;
+}
+declare const MessageSection: (props: IProps) => JSX.Element;
+export default MessageSection;

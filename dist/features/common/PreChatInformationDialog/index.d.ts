@@ -1,0 +1,2 @@
+import PreChatInformationDialogContainer from './PreChatInformationDialogContainer';
+export default PreChatInformationDialogContainer;

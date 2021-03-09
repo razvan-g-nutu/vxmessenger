@@ -1,0 +1,9 @@
+export declare const initLoadAccount: () => void;
+export declare const initLoadAccountOneClick: () => void;
+export declare const initVerifyAge: () => void;
+export declare const initSpyPrivateChat: () => void;
+export declare const initCloseChat: () => void;
+export declare const initInvitePrivateChat: () => void;
+export declare const initSendTip: () => void;
+export declare const initSendAnonymousTip: () => void;
+export declare const initChooseCamera: () => void;
