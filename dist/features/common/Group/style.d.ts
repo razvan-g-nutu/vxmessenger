@@ -3,13 +3,7 @@
 interface IGroupWrapperProps {
     showArrow?: boolean;
 }
-interface IGroupContentWrapperProps {
-    isOpen?: boolean;
-}
-interface IGroupTextWrapper {
-    shouldIncreaseMessageFontSize?: boolean;
-}
-export declare const GroupContentWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IGroupContentWrapperProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IGroupContentWrapperProps>;
+export declare const GroupContentWrapper: any;
 export declare const GroupWrapper: {
     new (props: IGroupWrapperProps): {
         render(): JSX.Element;
@@ -40,6 +34,6 @@ export declare const GroupWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const GroupTextWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLSpanElement> & import("react").HTMLAttributes<HTMLSpanElement> & IGroupTextWrapper, any, import("react").ClassAttributes<HTMLSpanElement> & import("react").HTMLAttributes<HTMLSpanElement> & IGroupTextWrapper>;
-export declare const TextArrow: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>, any, import("react").DetailedHTMLProps<import("react").AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>>;
+export declare const GroupTextWrapper: any;
+export declare const TextArrow: any;
 export {};

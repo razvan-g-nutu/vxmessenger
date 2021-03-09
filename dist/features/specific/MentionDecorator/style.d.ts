@@ -1,3 +1,1 @@
-/// <reference types="react" />
-/// <reference types="@emotion/core" />
-export declare const MentionDecoratorWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>>;
+export declare const MentionDecoratorWrapper: any;

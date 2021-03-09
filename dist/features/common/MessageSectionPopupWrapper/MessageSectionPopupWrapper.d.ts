@@ -1,4 +1,2 @@
-/// <reference types="react" />
-/// <reference types="@emotion/core" />
-declare const MessageSectionPopupWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+declare const MessageSectionPopupWrapper: any;
 export default MessageSectionPopupWrapper;

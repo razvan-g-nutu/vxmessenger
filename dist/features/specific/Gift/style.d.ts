@@ -1,13 +1,10 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-interface IGiftItemStyleProps {
-    url: string;
-}
 interface IGiftNameProps {
     isBundleGiftPage: boolean;
     [props: string]: any;
 }
-export declare const GiftItem: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLElement> & import("react").HTMLAttributes<HTMLElement> & IGiftItemStyleProps, any, import("react").ClassAttributes<HTMLElement> & import("react").HTMLAttributes<HTMLElement> & IGiftItemStyleProps>;
+export declare const GiftItem: any;
 export declare const GiftDetail: {
     new (props: {}): {
         render(): JSX.Element;
@@ -98,7 +95,7 @@ export declare const GiftWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const Inline: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const InlineInitialPrice: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const InlineReducedPrice: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const Inline: any;
+export declare const InlineInitialPrice: any;
+export declare const InlineReducedPrice: any;
 export {};

@@ -7,7 +7,7 @@ interface IWindowBoxWrapperProps {
     isResponsive?: boolean;
     isWindowForUserPrompt?: boolean;
 }
-export declare const WindowContentWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const WindowContentWrapper: any;
 export declare const WindowWrapper: {
     new (props: IWindowBoxWrapperProps): {
         render(): JSX.Element;
@@ -38,5 +38,5 @@ export declare const WindowWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const WindowTitleWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const WindowTitleWrapper: any;
 export {};

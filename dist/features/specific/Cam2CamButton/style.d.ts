@@ -63,5 +63,5 @@ export declare const Cam2CamDisabledButtonWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const Cam2CamEnabledIndicator: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const Cam2CamEnabledIndicator: any;
 export {};

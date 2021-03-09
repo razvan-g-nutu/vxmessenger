@@ -1,12 +1,5 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-interface IEmoticonStyleProps {
-    key: string;
-    title: string;
-    position?: string;
-    className?: string;
-    onClick: any;
-}
 export declare const EmoticonWrapper: {
     new (props: any): {
         render(): JSX.Element;
@@ -37,5 +30,4 @@ export declare const EmoticonWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const EmoticonStyle: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IEmoticonStyleProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IEmoticonStyleProps>;
-export {};
+export declare const EmoticonStyle: any;

@@ -30,7 +30,7 @@ export declare const ContactNoteWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const ContactNoteTitle: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const ContactNoteTitle: any;
 export declare const ContactNoteCloseButton: {
     new (props: any): {
         render(): JSX.Element;
@@ -61,4 +61,4 @@ export declare const ContactNoteCloseButton: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const ContactNoteInput: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement>, any, import("react").DetailedHTMLProps<import("react").TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement>>;
+export declare const ContactNoteInput: any;

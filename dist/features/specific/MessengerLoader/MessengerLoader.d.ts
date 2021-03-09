@@ -1,6 +1,2 @@
-import * as React from 'react';
-import { ITheme } from '../../../themes';
-declare const _default: React.ComponentClass<Pick<any, string | number> & {
-    theme?: ITheme | undefined;
-}, any>;
+declare const _default: any;
 export default _default;

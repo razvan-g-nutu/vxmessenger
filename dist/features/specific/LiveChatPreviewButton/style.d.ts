@@ -1,8 +1,5 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-interface IButtonContentProps {
-    shouldDisplayIcon?: boolean;
-}
 export declare const LiveChatPreviewButtonWrapper: {
     new (props: {}): {
         render(): JSX.Element;
@@ -33,5 +30,4 @@ export declare const LiveChatPreviewButtonWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const LiveChatPreviewButtonContent: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLSpanElement> & import("react").HTMLAttributes<HTMLSpanElement> & IButtonContentProps, any, import("react").ClassAttributes<HTMLSpanElement> & import("react").HTMLAttributes<HTMLSpanElement> & IButtonContentProps>;
-export {};
+export declare const LiveChatPreviewButtonContent: any;

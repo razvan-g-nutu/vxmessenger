@@ -1,6 +1,5 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-import { IVideoChatButtonProps } from "./types";
 export declare const VideoChatButtonWrapper: {
     new (props: {}): {
         render(): JSX.Element;
@@ -31,4 +30,4 @@ export declare const VideoChatButtonWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const VideoChatButton: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IVideoChatButtonProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IVideoChatButtonProps>;
+export declare const VideoChatButton: any;

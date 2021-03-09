@@ -1,8 +1,8 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-export declare const ButtonSection: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const ContentElement: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const ContentWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const ButtonSection: any;
+export declare const ContentElement: any;
+export declare const ContentWrapper: any;
 export declare const PreChatInformationDialogWrapper: {
     new (props: {}): {
         render(): JSX.Element;
@@ -33,6 +33,6 @@ export declare const PreChatInformationDialogWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const ProfilePictureWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const TextElement: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const LinkElement: import("styled-components").StyledComponentClass<unknown, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const ProfilePictureWrapper: any;
+export declare const TextElement: any;
+export declare const LinkElement: any;

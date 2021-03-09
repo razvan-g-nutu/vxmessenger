@@ -3,9 +3,6 @@
 interface IBaseProps {
     isToySectionMinimizied: boolean;
 }
-interface IInlineArrow {
-    isResponsive: boolean;
-}
 export declare const Wrapper: {
     new (props: IBaseProps): {
         render(): JSX.Element;
@@ -36,7 +33,7 @@ export declare const Wrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const InlineArrow: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IInlineArrow, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IInlineArrow>;
-export declare const InlineTitleElement: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IBaseProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IBaseProps>;
-export declare const InlineLink: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const InlineArrow: any;
+export declare const InlineTitleElement: any;
+export declare const InlineLink: any;
 export {};

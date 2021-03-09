@@ -1,16 +1,7 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-interface IImage {
-    image: string;
-    isActive?: boolean;
-    canPlayOption?: boolean;
-}
 interface IWrapper {
     isClickable?: boolean;
-}
-interface IText {
-    isResponsive: boolean;
-    hasTooltipOpen?: boolean;
 }
 export declare const Wrapper: {
     new (props: IWrapper): {
@@ -42,10 +33,10 @@ export declare const Wrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const ImageWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const Image: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IImage, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IImage>;
-export declare const Text: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IText, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IText>;
-export declare const Lock: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const PlayingStatusWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const PlayingStatus: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const ImageWrapper: any;
+export declare const Image: any;
+export declare const Text: any;
+export declare const Lock: any;
+export declare const PlayingStatusWrapper: any;
+export declare const PlayingStatus: any;
 export {};

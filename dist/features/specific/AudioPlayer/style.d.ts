@@ -1,7 +1,5 @@
-/// <reference types="react" />
-/// <reference types="@emotion/core" />
-export declare const BaseIcon: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLElement>, HTMLElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLElement>, HTMLElement>>;
-export declare const RecordingIcon: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLElement>, HTMLElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLElement>, HTMLElement>>;
-export declare const PlayerWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const ControlsWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const CurrentTimeWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const BaseIcon: any;
+export declare const RecordingIcon: any;
+export declare const PlayerWrapper: any;
+export declare const ControlsWrapper: any;
+export declare const CurrentTimeWrapper: any;

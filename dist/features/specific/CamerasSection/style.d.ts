@@ -30,5 +30,5 @@ export declare const Wrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const FrontBackCamerasWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const RegularCamerasWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const FrontBackCamerasWrapper: any;
+export declare const RegularCamerasWrapper: any;

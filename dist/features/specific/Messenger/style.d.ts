@@ -60,4 +60,4 @@ export declare const BodySection: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const MessengerOverlay: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const MessengerOverlay: any;

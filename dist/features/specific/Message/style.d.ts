@@ -1,20 +1,6 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-import { MessageDirection } from '../../../redux/store';
 import ITheme from "../../../themes/interfaces";
-interface IContentWrapperProps {
-    isVideoChatInGroupMode?: boolean;
-    isModelMessage?: boolean;
-    isGroupUserMessage?: boolean;
-    isMessageWithJustOneEmoticon?: boolean;
-    shouldIncreaseMessageFontSize: boolean;
-}
-interface IGroupChatModelNameProps {
-    isVideoChatInGroupMode?: boolean;
-}
-interface IFullscreenSystemMessage {
-    shouldIncreaseMessageFontSize: boolean;
-}
 interface IClientMessageWrapperProps {
     isMobileLandscape?: boolean;
     isFullscreen?: boolean;
@@ -33,14 +19,6 @@ interface IModelMessageAndImageWrapperProps {
      */
     isContextWithoutProfilePicture?: boolean;
 }
-interface IModelProfilePictureProps {
-    picture?: string;
-}
-interface ITimeSectionProps {
-    shouldIncreaseMessageFontSize: boolean;
-    direction?: MessageDirection;
-    isConsecutiveGroupMessage?: boolean;
-}
 interface IMessageBaseProps {
     hasImage?: boolean;
     isFullscreen?: boolean;
@@ -53,10 +31,6 @@ interface IToyMessageWrapper {
     isActive?: boolean;
     shouldApplyMargin?: boolean;
 }
-interface IGroupUsername {
-    color?: string;
-    isFromClient?: boolean;
-}
 interface IModelMessageWrapper {
     isConsecutiveGroupMessage?: boolean;
     isLastConsecutiveGroupMessage?: boolean;
@@ -68,10 +42,10 @@ export declare const getClientMessageBackgroundColor: (theme: ITheme, isVideoCha
 export declare const getClientMessagePadding: (props: IClientMessageWrapperProps) => string;
 export declare const getReceivedMessagePadding: (props: IModelMessageAndImageWrapperProps) => string;
 export declare const getMaxWidthForReceivedMessage: (props: IModelMessageWrapper) => string;
-export declare const messageAnimation: string;
-export declare const MessageBase: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps>;
-export declare const NotSystemMessageBase: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps>;
-export declare const GroupChatPictureWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const messageAnimation: any;
+export declare const MessageBase: any;
+export declare const NotSystemMessageBase: any;
+export declare const GroupChatPictureWrapper: any;
 export declare const ClientMessage: {
     new (props: IMessageBaseProps): {
         render(): JSX.Element;
@@ -102,8 +76,8 @@ export declare const ClientMessage: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const GroupChatModelInfoWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const GroupChatModelName: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IGroupChatModelNameProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IGroupChatModelNameProps>;
+export declare const GroupChatModelInfoWrapper: any;
+export declare const GroupChatModelName: any;
 export declare const ToyMessageWrapper: {
     new (props: IToyMessageWrapper): {
         render(): JSX.Element;
@@ -134,15 +108,15 @@ export declare const ToyMessageWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const FullscreenSystemMessage: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps & IFullscreenSystemMessage, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps & IFullscreenSystemMessage>;
-export declare const MessageContentWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IMessageBaseProps>;
-export declare const TrashIcon: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>>;
-export declare const TimeSection: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ITimeSectionProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ITimeSectionProps>;
-export declare const ProfilePictureWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IModelProfilePictureProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IModelProfilePictureProps>;
-export declare const ClientMessageWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IClientMessageWrapperProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IClientMessageWrapperProps>;
-export declare const ContentWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IContentWrapperProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IContentWrapperProps>;
-export declare const FullscreenSystemMessageWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const ReceivedMessageAndImageWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IModelMessageAndImageWrapperProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IModelMessageAndImageWrapperProps>;
+export declare const FullscreenSystemMessage: any;
+export declare const MessageContentWrapper: any;
+export declare const TrashIcon: any;
+export declare const TimeSection: any;
+export declare const ProfilePictureWrapper: any;
+export declare const ClientMessageWrapper: any;
+export declare const ContentWrapper: any;
+export declare const FullscreenSystemMessageWrapper: any;
+export declare const ReceivedMessageAndImageWrapper: any;
 export declare const ReceivedMessageWrapper: {
     new (props: IModelMessageWrapper): {
         render(): JSX.Element;
@@ -203,5 +177,5 @@ export declare const FullscreenReceivedMessageWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const GroupChatUsername: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IGroupUsername, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IGroupUsername>;
+export declare const GroupChatUsername: any;
 export {};

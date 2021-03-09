@@ -3,9 +3,6 @@
 import { ICorrections } from "./interfaces";
 import { IDimensions } from "../AdvancedTooltip/interfaces";
 declare type IContentWrapperProps = IDimensions & ICorrections;
-interface IHideableComponentProps {
-    isHidden?: boolean;
-}
 export declare const ContentWrapper: {
     new (props: IContentWrapperProps): {
         render(): JSX.Element;
@@ -36,22 +33,14 @@ export declare const ContentWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const Content: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IHideableComponentProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IHideableComponentProps>;
-export declare const Arrow: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps>;
-export declare const TopContentWrapper: import("styled-components").StyledComponentClass<IContentWrapperProps, any, Pick<IContentWrapperProps, "height" | "width" | "horizontal" | "vertical"> & {
-    theme?: any;
-}>;
-export declare const BottomContentWrapper: import("styled-components").StyledComponentClass<IContentWrapperProps, any, Pick<IContentWrapperProps, "height" | "width" | "horizontal" | "vertical"> & {
-    theme?: any;
-}>;
-export declare const LeftContentWrapper: import("styled-components").StyledComponentClass<IContentWrapperProps, any, Pick<IContentWrapperProps, "height" | "width" | "horizontal" | "vertical"> & {
-    theme?: any;
-}>;
-export declare const RightContentWrapper: import("styled-components").StyledComponentClass<IContentWrapperProps, any, Pick<IContentWrapperProps, "height" | "width" | "horizontal" | "vertical"> & {
-    theme?: any;
-}>;
-export declare const DownArrow: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps>;
-export declare const UpArrow: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps>;
-export declare const LeftArrow: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps>;
-export declare const RightArrow: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IDimensions & ICorrections & IHideableComponentProps>;
+export declare const Content: any;
+export declare const Arrow: any;
+export declare const TopContentWrapper: any;
+export declare const BottomContentWrapper: any;
+export declare const LeftContentWrapper: any;
+export declare const RightContentWrapper: any;
+export declare const DownArrow: any;
+export declare const UpArrow: any;
+export declare const LeftArrow: any;
+export declare const RightArrow: any;
 export {};

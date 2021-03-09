@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ITimerStylingProps } from "./style";
 import ITheme from "../../../themes/interfaces";
 export interface IProps {
@@ -17,7 +16,5 @@ export interface IProps {
 export interface IState {
     timeLeft: number;
 }
-declare const _default: React.ComponentClass<Pick<IProps, "totalTime" | "currentTime" | "onUnmount" | "onTimeIsOver" | "timeFormatter" | "resets" | "onTick" | "styling"> & {
-    theme?: ITheme | undefined;
-}, any>;
+declare const _default: any;
 export default _default;

@@ -30,7 +30,7 @@ export declare const MobileProfileInfoWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const MobileProfileOnline: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>>;
+export declare const MobileProfileOnline: any;
 export declare const MobileProfileName: {
     new (props: any): {
         render(): JSX.Element;

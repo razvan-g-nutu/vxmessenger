@@ -1,6 +1,6 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-export declare const BaseCloseWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const BaseCloseWrapper: any;
 export declare const MessengerCloseWrapper: {
     new (props: any): {
         render(): JSX.Element;
@@ -31,7 +31,7 @@ export declare const MessengerCloseWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const MobileHeaderCloseWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const MobileHeaderCloseWrapper: any;
 export declare const InformationDialogCloseWrapper: {
     new (props: any): {
         render(): JSX.Element;

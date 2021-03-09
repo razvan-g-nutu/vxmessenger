@@ -1,9 +1,6 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-interface IProps {
-    shouldHideVideochatControls: boolean;
-}
-export declare const VideoChatActionSectionContainerWrapper: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IProps>;
+export declare const VideoChatActionSectionContainerWrapper: any;
 export declare const VideoChatActionSectionWrapper: {
     new (props: any): {
         render(): JSX.Element;
@@ -34,4 +31,3 @@ export declare const VideoChatActionSectionWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export {};

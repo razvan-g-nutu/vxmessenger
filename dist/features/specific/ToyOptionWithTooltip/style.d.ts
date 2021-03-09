@@ -3,9 +3,6 @@
 interface ITooltipContentWrapper {
     isResponsive: boolean;
 }
-interface ITextTitle {
-    isResponsive: boolean;
-}
 export declare const Wrapper: {
     new (props: {}): {
         render(): JSX.Element;
@@ -36,9 +33,9 @@ export declare const Wrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const Title: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLHeadingElement> & import("react").HTMLAttributes<HTMLHeadingElement> & ITextTitle, any, import("react").ClassAttributes<HTMLHeadingElement> & import("react").HTMLAttributes<HTMLHeadingElement> & ITextTitle>;
-export declare const Text: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ITextTitle, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ITextTitle>;
-export declare const Inline: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const Title: any;
+export declare const Text: any;
+export declare const Inline: any;
 export declare const TooltipContentWrapper: {
     new (props: any): {
         render(): JSX.Element;

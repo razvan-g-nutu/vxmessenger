@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { ITranslation } from '../../../redux/store';
 import ITheme from "../../../themes/interfaces";
 interface IProps {
@@ -13,7 +12,5 @@ interface IProps {
     setVolume: (volume: number) => void;
 }
 export declare const handleVolumeChange: (props: IProps) => (_: any, value: number) => void;
-declare const _default: React.ComponentClass<Pick<IProps, "isMutedByClient" | "isInitiallyMutedHintDisplayed" | "translation" | "displayVolumeAsInitiallyMuted" | "volume" | "toggleSound" | "hideInitiallyMutedHint" | "setVolume"> & {
-    theme?: ITheme | undefined;
-}, any>;
+declare const _default: any;
 export default _default;

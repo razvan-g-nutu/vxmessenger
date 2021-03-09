@@ -1,9 +1,5 @@
 /// <reference types="react" />
 /// <reference types="@emotion/core" />
-interface ITipImageProps {
-    imageUrl: string;
-    imageSize: number;
-}
 interface IUserPromptTipWrapperProps {
     isResponsive?: boolean;
 }
@@ -37,8 +33,8 @@ export declare const UserPromptTipWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const UserPromptTipTitle: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const UserPromptTipSubTitle: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const UserPromptTipTitle: any;
+export declare const UserPromptTipSubTitle: any;
 export declare const UserPromptTipButton: {
     new (props: {}): {
         render(): JSX.Element;
@@ -69,7 +65,7 @@ export declare const UserPromptTipButton: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const TipImage: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ITipImageProps, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ITipImageProps>;
-export declare const Text: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
-export declare const TipPrice: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const TipImage: any;
+export declare const Text: any;
+export declare const TipPrice: any;
 export {};

@@ -8,12 +8,6 @@ interface IWrapper {
     isMobileLandscape?: boolean;
     [props: string]: any;
 }
-interface IText {
-    isReponsive?: boolean;
-}
-interface IInlineOption {
-    hasLimitedWidth: boolean;
-}
 export declare const Wrapper: {
     new (props: any): {
         render(): JSX.Element;
@@ -44,7 +38,7 @@ export declare const Wrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const Text: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IText, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IText>;
-export declare const InlineOption: import("styled-components").StyledComponentClass<import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IInlineOption, any, import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & IInlineOption>;
-export declare const OptionsWrapper: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>;
+export declare const Text: any;
+export declare const InlineOption: any;
+export declare const OptionsWrapper: any;
 export {};

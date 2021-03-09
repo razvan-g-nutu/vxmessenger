@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { IActionResponse } from '../../../redux/store';
 import { ITheme } from '../../../themes';
 export interface IProps {
@@ -7,7 +6,5 @@ export interface IProps {
     closeText: string;
     onCloseClick: () => void;
 }
-declare const _default: React.ComponentClass<Pick<IProps, "actionResponse" | "closeText" | "onCloseClick"> & {
-    theme?: ITheme | undefined;
-}, any>;
+declare const _default: any;
 export default _default;

@@ -38,4 +38,4 @@ export declare const DialogButtonWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const DialogButtonContent: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>>;
+export declare const DialogButtonContent: any;

@@ -30,4 +30,4 @@ export declare const FullscreenHeaderWrapper: {
     };
     contextType?: import("react").Context<any> | undefined;
 };
-export declare const CloseButton: import("styled-components").StyledComponentClass<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLElement>, HTMLElement>, any, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLElement>, HTMLElement>>;
+export declare const CloseButton: any;
